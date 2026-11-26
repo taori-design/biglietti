@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lugarà;Cristiano;;;
+FN:Cristiano Lugarà
+ORG:taori.design
+TITLE:AI Strategist & Architect
+EMAIL;TYPE=INTERNET,WORK:cristiano@taori.design
+URL;TYPE=WORK:https://taori.design
+item1.URL:https://www.linkedin.com/in/cristianolugara/
+item1.X-ABLabel:LinkedIn
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/cristianolugara/
+NOTE:taori.design · Agenti AI dove servono.
+END:VCARD

@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Valletta;Nicola;;;
+FN:Nicola Valletta
+ORG:taori.design
+TITLE:Creative Director
+EMAIL;TYPE=INTERNET,WORK:nicola@taori.design
+URL;TYPE=WORK:https://taori.design
+item1.URL:https://www.linkedin.com/in/nicolavalletta/
+item1.X-ABLabel:LinkedIn
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/nicolavalletta/
+NOTE:taori.design · Agenti AI dove servono.
+END:VCARD

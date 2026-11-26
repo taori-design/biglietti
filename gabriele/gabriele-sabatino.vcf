@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sabatino;Gabriele;;;
+FN:Gabriele Sabatino
+ORG:taori.design
+TITLE:Revenue Lead
+EMAIL;TYPE=INTERNET,WORK:gabriele@taori.design
+URL;TYPE=WORK:https://taori.design
+item1.URL:https://www.linkedin.com/in/gabriele-sabatino/
+item1.X-ABLabel:LinkedIn
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/gabriele-sabatino
+ /
+NOTE:taori.design · Agenti AI dove servono.
+END:VCARD

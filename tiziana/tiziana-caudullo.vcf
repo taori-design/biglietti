@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Caudullo;Tiziana;;;
+FN:Tiziana Caudullo
+ORG:taori.design
+TITLE:Business & Process Designer
+EMAIL;TYPE=INTERNET,WORK:tiziana@taori.design
+URL;TYPE=WORK:https://taori.design
+item1.URL:https://www.linkedin.com/in/tizianacaudullo/
+item1.X-ABLabel:LinkedIn
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/tizianacaudullo/
+NOTE:taori.design · Agenti AI dove servono.
+END:VCARD

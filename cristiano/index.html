@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cristiano Lugarà · taori.design</title>
+<meta name="description" content="AI Strategist &amp; Architect di taori.design. Salva il contatto.">
+<meta name="theme-color" content="#000000">
+<meta name="robots" content="noindex">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<style>
+@font-face { font-family: "Instrument Sans"; src: url("../assets/instrumentsans.woff2") format("woff2"); font-weight: 400 700; font-display: swap; }
+@font-face { font-family: "IBM Plex Mono"; src: url("../assets/plexmono-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+:root { --fondo:#000; --sup:#0A0A0C; --riga:#1C1C20; --testo:#F5F5F7; --sec:#A8A8B1; --ocra:#D4A63C; --su-ocra:#111113; }
+* { box-sizing: border-box; margin: 0; }
+html { background: var(--fondo); color: var(--testo); font: 400 17px/1.5 "Instrument Sans", system-ui, sans-serif; -webkit-text-size-adjust: 100%; }
+body { min-height: 100svh; display: flex; justify-content: center; padding: max(28px, env(safe-area-inset-top)) 22px max(28px, env(safe-area-inset-bottom)); }
+main { width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 28px; }
+.marchio { width: 132px; height: auto; display: block; }
+.testa { display: flex; flex-direction: column; gap: 14px; padding-top: 18px; }
+.foto { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; }
+.iniziali { display: grid; place-items: center; background: var(--sup); border: 1px solid var(--riga); color: var(--sec); font-size: 26px; letter-spacing: -0.02em; }
+h1 { font-weight: 400; font-size: clamp(38px, 11vw, 48px); line-height: 1.02; letter-spacing: -0.04em; }
+.ruolo { font: 600 12px/1.4 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ocra); }
+.frase { color: var(--sec); max-width: 34ch; }
+.salva { display: flex; align-items: center; justify-content: center; gap: 10px; height: 56px; border-radius: 999px; background: var(--ocra); color: var(--su-ocra); font-weight: 600; font-size: 17px; text-decoration: none; }
+.salva:active { transform: scale(0.98); }
+.salva svg { width: 20px; height: 20px; }
+.contatti { display: flex; flex-direction: column; border-top: 1px solid var(--riga); }
+.riga { display: flex; align-items: center; gap: 16px; padding: 15px 2px; border-bottom: 1px solid var(--riga); color: var(--testo); text-decoration: none; }
+.riga svg { width: 22px; height: 22px; color: var(--sec); flex: none; }
+.riga span { display: flex; flex-direction: column; min-width: 0; overflow-wrap: anywhere; }
+.riga small { font: 600 10.5px/1.6 "IBM Plex Mono", ui-monospace, monospace; letter-spacing: 0.08em; color: var(--sec); }
+footer { margin-top: auto; padding-top: 8px; color: var(--sec); font-size: 14px; }
+footer strong { color: var(--testo); font-weight: 400; }
+</style>
+</head>
+<body>
+<main>
+  <a href="https://taori.design" aria-label="taori.design"><img class="marchio" src="../assets/marchio.svg" alt="taori.design"></a>
+  <section class="testa">
+    <div class="foto iniziali" aria-hidden="true">CL</div>
+    <h1>Cristiano<br>Lugarà</h1>
+    <p class="ruolo">AI Strategist &amp; Architect</p>
+    <p class="frase">Decide dove e in che ordine usare l&#x27;AI.</p>
+  </section>
+  <a class="salva" href="cristiano-lugara.vcf" download="cristiano-lugara.vcf"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Salva contatto</a>
+  <nav class="contatti">
+    <a class="riga" href="mailto:cristiano@taori.design"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9 6 9-6M4 5h16a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V6a1 1 0 011-1z"/></svg><span><small>EMAIL</small>cristiano@taori.design</span></a><a class="riga" href="https://www.linkedin.com/in/cristianolugara/"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 11v5M8 8v.01M12 16v-5M16 16v-3a2 2 0 00-4 0"/><rect x="4" y="4" width="16" height="16" rx="2"/></svg><span><small>LINKEDIN</small>Profilo</span></a><a class="riga" href="https://taori.design"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3.6 9h16.8M3.6 15h16.8M11.5 3a17 17 0 000 18M12.5 3a17 17 0 010 18"/></svg><span><small>SITO</small>taori.design</span></a>
+  </nav>
+  <footer><strong>Agenti AI dove servono.</strong> Ogni azienda lavora a modo suo: partiamo da lì.</footer>
+</main>
+</body>
+</html>
